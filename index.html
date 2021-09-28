@@ -1,0 +1,100 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>JS Table</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <h2>Table</h2>
+      <div class="search">
+        <input
+          type="search"
+          placeholder="Search"
+          id="searchName"
+          onkeyup="searchByName()"
+        />
+      </div>
+      <!-- onkeyup="searchByName(event.target.value)" -->
+      <table id="mytable">
+        <thead>
+          <tr>
+            <th>Sr No.</th>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Hindi</th>
+            <th>English</th>
+            <th>C Language</th>
+            <th>Focs</th>
+            <th>Data Structure</th>
+          </tr>
+        </thead>
+        <!-- <tr>
+          <td>1.</td>
+          <td>Ratnesh Dubey</td>
+          <td>01</td>
+          <td>14</td>
+          <td>6</td>
+          <td>20</td>
+          <td>25</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Shubham Vishwakarma</td>
+          <td>02</td>
+          <td>14</td>
+          <td>6</td>
+          <td>20</td>
+          <td>25</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Aryan Meena</td>
+          <td>03</td>
+          <td>14</td>
+          <td>6</td>
+          <td>20</td>
+          <td>25</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Mansi Bhati</td>
+          <td>04</td>
+          <td>14</td>
+          <td>6</td>
+          <td>20</td>
+          <td>25</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Akansha Parmar</td>
+          <td>05</td>
+          <td>14</td>
+          <td>6</td>
+          <td>20</td>
+          <td>25</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>Anmol Rajput</td>
+          <td>06</td>
+          <td>14</td>
+          <td>6</td>
+          <td>20</td>
+          <td>25</td>
+          <td>35</td>
+        </tr> -->
+        <tbody class="tdata" id="tdata"></tbody>
+      </table>
+      <div class="btn">
+        <button id="sum" type="button" onclick="sum()">Sum</button>
+        <button id="per" onclick="per()">Percentage</button>
+      </div>
+
+      <script src="index.js"></script>
+    </body>
+  </html>
